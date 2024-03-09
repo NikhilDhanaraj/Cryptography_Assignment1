@@ -1,7 +1,7 @@
 # Cryptography_Assignment1
 Different techniques to encipher and decipher different texts based on substitution, transposition and product ciphers.
 
-Q1:
+## **Q1:**
   About the algorithm:
   
   This algorithm is an example of a substitution cipher. More specifically, it’s a type of steganography, where a message is encoded within another message. The algorithm is roughly explained as follows:
@@ -20,7 +20,7 @@ Q1:
   Output Format
   Print the plaintext in uppercase string format.
 
-Q2:
+## **Q2:**
   This algorithm is a product cipher of two ciphers: polybius square cipher and columnar transposition. The encrypting takes place in two phases. First phase is performing substitution while the second phase is fractionating.
   
   During the substitution phase, we substitute each letter with two letters retrieved from the polybius square (https://en.wikipedia.org/wiki/Polybius_square)
@@ -41,7 +41,7 @@ Q2:
   Output Format
   Cipher text – String
 
-Q3:
+## **Q3:**
   This algorithm is a product cipher of two ciphers: Straddle Checkerboard and Rail fence Transposition. The encrypting takes place in two phases. First phase is performing substitution while the second phase is transposition.
   
   During the substitution phase, we substitute each letter with either one or more digits retrieved from the straddle checkerboard (https://en.m.wikipedia.org/wiki/Straddling_checkerboard)
@@ -66,7 +66,7 @@ Q3:
   Output Format
   Plain text – String
 
-Q4:
+## **Q4:**
   The given algorithm is a product cipher, combining the strengths of Playfair, Vigenère, and Columnar Transposition ciphers to enhance the security of the encryption process.
   
   Playfair cipher: Employing the Playfair cipher involves the generation of a key table derived from a given keyword. The plaintext is then broken into digraphs, pairs of letters, and each digraph undergoes the Playfair encryption process. This step serves as the initial layer in our product cipher, introducing a spatial transformation to the original message.
